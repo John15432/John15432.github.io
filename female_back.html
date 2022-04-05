@@ -44,11 +44,9 @@
 		              var seconds = (date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds());//秒
 		              document.getElementById("time").innerHTML = yy + '-' + mm + "-" + dd + " " + hours + ':' + minutes + ':' + seconds;
 		          }
-		          window.onload=function(){
-		              settime();
-		              setInterval("settime()", 1000);
-		              
-		          }
+		          
+    settime();
+    setInterval("settime()", 1000);
 	</script>
 
 	<script type="text/javascript">
