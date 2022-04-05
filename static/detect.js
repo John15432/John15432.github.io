@@ -1,3 +1,4 @@
+/*
 let ua = navigator.userAgent
 let reg = /LE210\d|OnePlus 9R/im
 if(reg.test(ua)){
@@ -6,3 +7,4 @@ if(reg.test(ua)){
     window.close()
     window.location.href = "http://example.com/"
 }
+*/
